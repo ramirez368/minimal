@@ -4,7 +4,7 @@ layout: default
 
 
 
-[More About Lamp-Stack Monitor](./https://learn.netdata.cloud/guides/monitor/lamp-stack).
+[More About Lamp-Stack Monitor](https://learn.netdata.cloud/guides/monitor/lamp-stack).
 
 There should be whitespace between paragraphs.
 
