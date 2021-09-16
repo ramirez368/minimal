@@ -33,6 +33,11 @@ sudo apt-get update
 sudo apt-get install apache2 
 
 ```
+### Step 2
+Then we will open Firefox ok and we're going to go to localhost and there we go we have an Apache - default page now we can also access this anywhere on our network okay.
+
+
+
 
 ```ruby
 # Ruby code with syntax highlighting
