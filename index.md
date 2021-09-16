@@ -13,12 +13,13 @@ layout: default
 # What is LAMP Stack?
 
 LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category, which stands for Free Open Source Software.
-by: Cesar Ramirez  /  September 16, 202
-## Header 2
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## so now what is a Web stack?
+
+" A web stack is a solution stack or software stack, is a group of software that functions cohesively for web development."
+
+Web stacks are convenient because dynamic websites can run on them without requiring anything else. All the pieces of a web stack come together to form a platform ideal for web development. For example, some highly complex applications beneficial such as WordPress run on top of LAMP Stack. LAMP Stack and other stacks like it are when creating dynamic websites and large web applications.
+
 
 ### Header 3
 
