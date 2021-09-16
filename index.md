@@ -21,7 +21,11 @@ LAMP Stack is a strong web stack that has been around for quite a long time. It 
 Web stacks are convenient because dynamic websites can run on them without requiring anything else. All the pieces of a web stack come together to form a platform ideal for web development. For example, some highly complex applications beneficial such as WordPress run on top of LAMP Stack. LAMP Stack and other stacks like it are when creating dynamic websites and large web applications.
 
 
-### Header 3
+### Installation steps for LAMP
+### Step 1
+
+First thing we're going to do here is we're going to update our pachages in Ubuntu, that is what we are working on and we're going to say sudo apt-get update keep putting your password and we're just going to update everything, once is done we're going to install Apache okay so we'll say sudo apt-get install apache2 ok we're going to say yes.
+
 
 ```js
 // Javascript code with syntax highlighting.
