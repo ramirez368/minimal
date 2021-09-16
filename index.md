@@ -10,9 +10,9 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# What is LAMP Stack?
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category
 
 ## Header 2
 
