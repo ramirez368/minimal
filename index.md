@@ -6,7 +6,7 @@ layout: default
 
 [More About Lamp-Stack Monitor](https://learn.netdata.cloud/guides/monitor/lamp-stack).
 
-There should be whitespace between paragraphs.
+<!There should be whitespace between paragraphs>
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
