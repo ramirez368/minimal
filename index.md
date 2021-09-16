@@ -13,7 +13,7 @@ layout: default
 # What is LAMP Stack?
 
 LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category
-
+by: Cesar Ramirez  /  September 16, 2021
 ## Header 2
 
 > This is a blockquote following a header.
