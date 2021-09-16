@@ -28,10 +28,10 @@ First thing we're going to do here is we're going to update our pachages in Ubun
 
 
 ```js
-// Linux commands used on this step
+**Linux commands used on this step**
 sudo apt-get update 
 sudo apt-get install apache2 
-}
+
 ```
 
 ```ruby
