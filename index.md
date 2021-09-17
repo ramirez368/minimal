@@ -90,7 +90,7 @@ Username should be root and the password the password that you created.
 
 
 ### Lamp Stack Diagram:
-ramirez368.github.io/assets/img/kb-lamp-stack-1.png
+assets/img/kb-lamp-stack-1.png
 
 
 ```
