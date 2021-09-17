@@ -94,7 +94,7 @@ Username should be root and the password the password that you created.
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://github.com/ramirez368/ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
 
 
 ```
