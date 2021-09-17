@@ -19,7 +19,7 @@ LAMP Stack is a strong web stack that has been around for quite a long time. It 
 ![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
 
 
-## so now what is a Web stack?
+### so now what is a Web stack?
 
 " A web stack is a solution stack or software stack, is a group of software that functions cohesively for web development."
 
@@ -95,6 +95,7 @@ Username should be root and the password the password that you created.
 
 
 ```
-Thank you readers, wait for Blog 1
-For Contact: ramirez368@hotmail.com
+Thank you readers, and wait for Blog 1 next week.
+For Contact e-mail me at ramirez368@hotmail.com
+
 ```
