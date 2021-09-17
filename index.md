@@ -89,7 +89,8 @@ Username should be root and the password the password that you created.
 ### I hope this was useful to how to setup LAMP and being expose to more Linux
 
 
-### Lamp Stack Diagram (https://ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
+### Lamp Stack Diagram:
+assets/img/LampStack_Diagram.JPG
 
 
 ```
