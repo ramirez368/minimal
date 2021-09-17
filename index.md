@@ -93,7 +93,7 @@ Username should be root and the password the password that you created.
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 (https://github/assets/img/kb-lamp-stack-1.png
 ![Branching](https://guides.github.com/assets/img/kb-lamp-stack-1.png)
-
+https://github.com/ramirez368/ramirez368.github.io/blob/d299e5fd1912cef08405c142d19cdd3118109bd6/assets/img/lampstack.png
 
 ```
 Thank you readers, wait for Blog 1
