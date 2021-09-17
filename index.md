@@ -36,7 +36,9 @@ sudo apt-get install apache2
 ### Step 2
 Then we will open Firefox ok and we're going to go to localhost and there we go we have an Apache - default page now we can also access this anywhere on our network okay.
 
-
+### Step 3
+Next we will go ahead and install PHP so we'll say sudo apt-get install php 5, say yes, after that we will restart apache with sudo /etc/init.d/apache2 restart, now I want to test it, so we'll test PHP out okay so let's do sudo nano /var/www.html/”nameofyourfile.php”
+There we’ll type <?php php echo ‘It Works’; ?> then save it on your vim editor and if you type localhost/test.php in our example in your url it should display it….It Works!
 
 
 ```ruby
