@@ -14,6 +14,11 @@ layout: default
 
 LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category, which stands for Free Open Source Software.
 
+### Lamp Stack Diagram:
+
+![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
+
+
 ## so now what is a Web stack?
 
 " A web stack is a solution stack or software stack, is a group of software that functions cohesively for web development."
@@ -90,11 +95,11 @@ Username should be root and the password the password that you created.
 
 
 ### Lamp Stack Diagram:
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
 
 
 ```
 Thank you readers, wait for Blog 1
+For Contact: ramirez368@hotmail.com
 ```
