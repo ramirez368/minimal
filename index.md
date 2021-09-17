@@ -42,7 +42,7 @@ There we’ll type <?php php echo ‘It Works’; ?> then save it on your vim ed
 
 
 ```ruby
-**Linux commands For Steps 3/4/5**
+**Linux commands For Steps 3**
 sudo apt-get install php 5
 sudo /etc/init.d/apache2 restart
 sudo nano /var/www.html/"nameofyourfile".php
@@ -50,69 +50,51 @@ sudo nano /var/www.html/"nameofyourfile".php
 localhost/test.php 
 
 ```
+### Step 4
+So now we want to move on to MySQL so we're going to say sudo apt-get install mysql-server, at one point it would ask to set a root password to go to it it we do: 
+mysql -u root -p it would ask you for the root password and once entered it would take you to mysql>, from there we could create a database by doing create database testdb;
+To see it we can do show databases -> ;
+
 ```ruby
-**Linux commands For Steps 3/4/5**
-sudo apt-get install php 5
-sudo /etc/init.d/apache2 restart
-sudo nano /var/www.html/"nameofyourfile".php
-<?php php echo ‘It Works’; ?>
-localhost/test.php 
-
+**Linux commands For Steps 4**
+sudo apt-get install mysql-server
+mysql -u root -p 
+create database testdb
+show databases -> ;
 ```
-#### Header 4
+### Step 5
+Last step would be to install the  I want to do is install PHP myadmin, so we do: 
+sudo apt-get install php myadmin, it would ask you what type of server we have, you   select apache2, it would show you the configuration and ask you to set a password for php myadmin and then your root mysql password, after all these we test it but we found a few issues.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+```ruby
+**Linux commands For Steps 5**
+sudo apt-get install php myadmin
+```
 
-##### Header 5
+#### Issues when Installing/Running Apache and php:
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+    We found some issues when we tried to go in the url to localhost/phpMyAdmin to solve this issue we will have to edit a file so we go by typing /etc/php5/apache2.php.ini and we  need to remove the semicolon at the extension=msql.so this should be under ==Module setting== in the page. After this we will restart apache by doing:
+Sudo /etc/init.d/apache2 restart, then we reload the web browser and still having issues, so the final resolution was to edit the config file for apache by going again to:
+/etc/apache2/apache2.config and at the bottom and on the editor we add:
+Include /etc/phpMyAdmin/apache.conf and then we restart Apache and it works.
+Username should be root and the password the password that you created.
+
+I hope this was useful to how to setup LAMP and being expose to more Linux
+
 
 ###### Header 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Command                          | Action                            | Fix |
+|:---------------------------------|:----------------------------------|:------|
+| /etc/php5/apache2.php.ini        | Type the command to edit the file | Remove extension at extension=msql.so|
+| Sudo /etc/init.d/apache2 restart | It will restart Apache        | Not yet fixed
+| /etc/apache2/apache2.config      |  Type this to edit the file   | Include /etc/phpMyAdmin/apache.conf |
+
 
 ### There's a horizontal rule below this.
 
 * * *
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
@@ -125,21 +107,10 @@ localhost/test.php
 
 ### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
 ```
-The final element.
+Thank you readers, wait for Blog 1
 ```
