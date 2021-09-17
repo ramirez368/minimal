@@ -91,8 +91,8 @@ Username should be root and the password the password that you created.
 
 ### Lamp Stack Diagram:
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-(https://github/assets/img/kb-lamp-stack-1.png
-![Lamp Stack Diagram](https://github.com/ramirez368/ramirez368.github.io/assets/img/lampstack.png)
+
+![Lamp Stack Diagram](https://www.google.com/search?q=lamp+stack+diagram+images&tbm=isch&ved=2ahUKEwjq6KCS34bzAhVUATQIHQWJB3wQ2-cCegQIABAA&oq=lamp+stack+diagram+images&gs_lcp=CgNpbWcQAzoECAAQHjoGCAAQBRAeOgYIABAIEB5Qw-4FWJb2BWDT9wVoAHAAeACAAWKIAZgEkgEBN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=iexEYaqAK9SC0PEPhZKe4Ac&bih=865&biw=1711&rlz=1C1CHBF_enUS808US808#imgrc=BOvl5lCxv7UPCM)
 
 
 ```
