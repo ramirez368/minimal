@@ -88,13 +88,12 @@ Username should be root and the password the password that you created.
 | /etc/apache2/apache2.config      |  Type this to edit the file   | Include /etc/phpMyAdmin/apache.conf |
 
 
-### 
 
 * * *
 
 ### Large image
 
-![Branching](https://github.com/ramirez368/ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
+![Diagram of Lamp Stack](https://github.com/ramirez368/ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
 
 
 ```
