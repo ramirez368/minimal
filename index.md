@@ -79,7 +79,7 @@ Sudo /etc/init.d/apache2 restart, then we reload the web browser and still havin
 Include /etc/phpMyAdmin/apache.conf and then we restart Apache and it works.
 Username should be root and the password the password that you created.
 
-I hope this was useful to how to setup LAMP and being expose to more Linux
+### I hope this was useful to how to setup LAMP and being expose to more Linux
 
 
 ###### Header 6
@@ -91,7 +91,7 @@ I hope this was useful to how to setup LAMP and being expose to more Linux
 | /etc/apache2/apache2.config      |  Type this to edit the file   | Include /etc/phpMyAdmin/apache.conf |
 
 
-### There's a horizontal rule below this.
+### 
 
 * * *
 
@@ -104,12 +104,6 @@ I hope this was useful to how to setup LAMP and being expose to more Linux
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-
-### Definition lists can be used with HTML syntax.
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
 ```
 Thank you readers, wait for Blog 1
