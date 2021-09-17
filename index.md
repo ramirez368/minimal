@@ -26,7 +26,7 @@ LAMP Stack is a strong web stack that has been around for quite a long time. It 
 Web stacks are convenient because dynamic websites can run on them without requiring anything else. All the pieces of a web stack come together to form a platform ideal for web development. For example, some highly complex applications beneficial such as WordPress run on top of LAMP Stack. LAMP Stack and other stacks like it are when creating dynamic websites and large web applications.
 
 
-### Installation Steps for LAMP
+## Installation Steps for LAMP Stack
 ### Step 1
 
 First thing we're going to do here is we're going to update our pachages in Ubuntu, that is what we are working on and we're going to say sudo apt-get update keep putting your password and we're just going to update everything, once is done we're going to install Apache okay so we'll say sudo apt-get install apache2 ok we're going to say yes.
@@ -75,7 +75,7 @@ sudo apt-get install php myadmin, it would ask you what type of server we have, 
 **Linux commands For Steps 5**
 sudo apt-get install php myadmin
 ```
-### Issues when Installing/Running Apache and php:
+## Issues when Installing/Running Apache and php:
    We found some issues when we tried to go in the url to localhost/phpMyAdmin to solve this issue we will have to edit a file so we go by typing /etc/php5/apache2.php.ini and we  need to remove the semicolon at the extension=msql.so this should be under ==Module setting== in the page. After this we will restart apache by doing:
 Sudo /etc/init.d/apache2 restart, then we reload the web browser and still having issues, so the final resolution was to edit the config file for apache by going again to:
 /etc/apache2/apache2.config and at the bottom and on the editor we add:
