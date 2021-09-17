@@ -28,7 +28,7 @@ First thing we're going to do here is we're going to update our pachages in Ubun
 
 
 ```js
-**Linux commands used on this step**
+**Linux commands For Step 1**
 sudo apt-get update 
 sudo apt-get install apache2 
 
@@ -42,6 +42,7 @@ There we’ll type <?php php echo ‘It Works’; ?> then save it on your vim ed
 
 
 ```ruby
+**Linux commands For Steps 3/4/5**
 sudo apt-get install php 5
 sudo /etc/init.d/apache2 restart
 sudo nano /var/www.html/"nameofyourfile".php
@@ -49,7 +50,15 @@ sudo nano /var/www.html/"nameofyourfile".php
 localhost/test.php 
 
 ```
+```ruby
+**Linux commands For Steps 3/4/5**
+sudo apt-get install php 5
+sudo /etc/init.d/apache2 restart
+sudo nano /var/www.html/"nameofyourfile".php
+<?php php echo ‘It Works’; ?>
+localhost/test.php 
 
+```
 #### Header 4
 
 *   This is an unordered list following a header.
