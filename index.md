@@ -91,9 +91,7 @@ Username should be root and the password the password that you created.
 
 * * *
 
-### Large image
-
-![Diagram of Lamp Stack](https://github.com/ramirez368/ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
+### Lamp Stack Diagram (https://ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
 
 
 ```
