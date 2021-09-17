@@ -92,7 +92,7 @@ Username should be root and the password the password that you created.
 ### Lamp Stack Diagram:
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-![Lamp Stack Diagram](/assets/img/lampstack.png)
+![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
 
 
 ```
