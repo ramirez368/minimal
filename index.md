@@ -42,10 +42,12 @@ There we’ll type <?php php echo ‘It Works’; ?> then save it on your vim ed
 
 
 ```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+sudo apt-get install php 5
+sudo /etc/init.d/apache2 restart
+sudo nano /var/www.html/"nameofyourfile".php
+<?php php echo ‘It Works’; ?>
+localhost/test.php 
+
 ```
 
 #### Header 4
