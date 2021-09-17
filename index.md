@@ -77,7 +77,6 @@ Sudo /etc/init.d/apache2 restart, then we reload the web browser and still havin
 Include /etc/phpMyAdmin/apache.conf and then we restart Apache and it works.
 Username should be root and the password the password that you created.
 
-### I hope this was useful to how to setup LAMP and being expose to more Linux
 
 
 
@@ -87,9 +86,8 @@ Username should be root and the password the password that you created.
 | Sudo /etc/init.d/apache2 restart | It will restart Apache        | Not yet fixed
 | /etc/apache2/apache2.config      |  Type this to edit the file   | Include /etc/phpMyAdmin/apache.conf |
 
+### I hope this was useful to how to setup LAMP and being expose to more Linux
 
-
-* * *
 
 ### Lamp Stack Diagram (https://ramirez368.github.io/blob/master/assets/img/LampStack_Diagram.JPG)
 
