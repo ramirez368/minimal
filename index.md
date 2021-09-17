@@ -94,11 +94,6 @@ Username should be root and the password the password that you created.
 ### I hope this was useful to how to setup LAMP and being expose to more Linux
 
 
-### Lamp Stack Diagram:
-
-![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
-
-
 ```
 Thank you readers, wait for Blog 1
 For Contact: ramirez368@hotmail.com
