@@ -70,7 +70,7 @@ sudo apt-get install php myadmin, it would ask you what type of server we have, 
 **Linux commands For Steps 5**
 sudo apt-get install php myadmin
 ```
-#### Issues when Installing/Running Apache and php:
+### Issues when Installing/Running Apache and php:
    We found some issues when we tried to go in the url to localhost/phpMyAdmin to solve this issue we will have to edit a file so we go by typing /etc/php5/apache2.php.ini and we  need to remove the semicolon at the extension=msql.so this should be under ==Module setting== in the page. After this we will restart apache by doing:
 Sudo /etc/init.d/apache2 restart, then we reload the web browser and still having issues, so the final resolution was to edit the config file for apache by going again to:
 /etc/apache2/apache2.config and at the bottom and on the editor we add:
@@ -91,11 +91,6 @@ Username should be root and the password the password that you created.
 ### 
 
 * * *
-
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
